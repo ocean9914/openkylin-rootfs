@@ -18,7 +18,7 @@ on:
 jobs:
   build:
     name: Build tar file
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-jammy
     env:
       GITHUB_TOKEN: ${{ secrets.TOKEN }}
 
